@@ -1,4 +1,4 @@
-export class Quizz {
+export class Question {
     question: string;
     answer: string;
 }

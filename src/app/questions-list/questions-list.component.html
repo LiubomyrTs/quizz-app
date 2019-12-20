@@ -1,0 +1,9 @@
+<div *ngFor="let question of questions">
+    <div *ngIf="question" class="border p-3 d-flex justify-content-between">
+      <div>
+        <div>Question: {{question.question}}</div>
+        <div>Answer: {{question.answer}}</div>
+      </div>
+    <!-- <button class="btn btn-danger" (click)="deleteQuestion(question.id)">x</button> -->
+    </div>
+</div>
